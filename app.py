@@ -3,6 +3,7 @@ from quiz_generator import get_quiz_sentence
 
 # initialize our Flask application and pre-trained model
 app = flask.Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 @app.route("/generate", methods=["POST"])
 def predict():
