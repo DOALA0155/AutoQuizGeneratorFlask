@@ -21,7 +21,7 @@ def predict():
             response["title"] = title
             response["sentence"] = quiz_sentence
             response["answers"] = answers
-
+            response["stared"] = False
             response["success"] = True
 
     return flask.jsonify(response)
