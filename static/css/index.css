@@ -1,0 +1,180 @@
+@media (min-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  div.main {
+    width: 100vw;
+    position: relative;
+  }
+  div.page-title {
+    height: 12vw;
+    width: 80vw;
+    position: absolute;
+    top: 8vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.page-title div.page-main-title {
+    height: 8vw;
+    width: 80vw;
+    text-align: center;
+  }
+  div.page-title div.page-main-title span {
+    font-size: 4vw;
+    line-height: 8vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.page-title div.page-sub-title {
+    height: 4vw;
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  div.page-title div.page-sub-title span {
+    font-size: 2.4vw;
+    line-height: 4vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.word-field {
+    height: 4vw;
+    width: 40vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25vw;
+    margin: auto;
+    border-radius: 2vw;
+    border: solid 0.2vw black;
+  }
+  div.word-field input {
+    width: 30vw;
+    height: 3.6vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 4vw;
+    font-size: 2vw;
+    border-radius: 2vw;
+    border: none;
+    outline: none;
+  }
+  div.generate-button {
+    height: 4vw;
+    width: 20vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40vw;
+    margin: auto;
+    border-radius: 2vw;
+    border: solid 0.2vw black;
+    text-align: center;
+  }
+  div.generate-button:hover {
+    background-color: rgb(10, 10, 10, 0.2);
+  }
+  div.generate-button span {
+    font-size: 3vw;
+    line-height: 4vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  div.main {
+    width: 100vw;
+    position: relative;
+  }
+  div.page-title {
+    height: 28vw;
+    width: 80vw;
+    position: absolute;
+    top: 20vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.page-title div.page-main-title {
+    height: 20vw;
+    width: 80vw;
+    text-align: center;
+  }
+  div.page-title div.page-main-title span {
+    font-size: 7vw;
+    line-height: 20vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.page-title div.page-sub-title {
+    height: 8vw;
+    width: 80vw;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  div.page-title div.page-sub-title span {
+    font-size: 2.8vw;
+    line-height: 8vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.word-field {
+    height: 8vw;
+    width: 60vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60vw;
+    margin: auto;
+    border-radius: 4vw;
+    border: solid 0.2vw black;
+  }
+  div.word-field input {
+    width: 30vw;
+    height: 7vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 8vw;
+    font-size: 4vw;
+    border-radius: 4vw;
+    border: none;
+    outline: none;
+  }
+  div.generate-button {
+    height: 8vw;
+    width: 40vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80vw;
+    margin: auto;
+    border-radius: 4vw;
+    border: solid 0.2vw black;
+    text-align: center;
+  }
+  div.generate-button:hover {
+    background-color: rgb(10, 10, 10, 0.2);
+  }
+  div.generate-button span {
+    font-size: 5vw;
+    line-height: 8vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+}

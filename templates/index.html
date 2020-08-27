@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>クイズ自動生成サイト</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+  <div class="main">
+    <div class="page-title">
+      <div class="page-main-title">
+        <span>クイズ自動生成</span>
+      </div>
+      <div class="page-sub-title">
+        <span>入力された単語をもとにクイズを生成してくれるサイトです。</span>
+      </div>
+    </div>
+    <div class="word-field">
+      <input class="word-field-content" placeholder="生成ワード">
+    </div>
+    <div class="generate-button">
+      <span>生成</span>
+    </div>
+  </div>
+  <script src="/static/script/generate_answer.js"></script>
+</body>
+</html>

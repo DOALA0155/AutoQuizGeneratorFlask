@@ -1,0 +1,296 @@
+@media (min-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  div.main {
+    width: 100vw;
+    position: relative;
+  }
+  div.quiz-title {
+    width: 100vw;
+    height: 10vw;
+    position: absolute;
+    top: 5vw;
+    margin: auto;
+    text-align: center;
+  }
+  div.quiz-title span {
+    font-size: 4vw;
+    line-height: 10vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.quiz-sentence {
+    width: 60vw;
+    height: 38vw;
+    position: absolute;
+    top: 15vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.quiz-sentence-title {
+    height: 8vw;
+    width: 60vw;
+    position: absolute;
+    top: 0;
+    text-align: left;
+  }
+  div.quiz-sentence-title span {
+    font-size: 3vw;
+    line-height: 8vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.quiz-sentence div.quiz-sentence-content {
+    width: 60vw;
+    height: 30vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.quiz-sentence textarea {
+    height: 30vw;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.6vw;
+    line-height: 3vw;
+    font-family: sans-serif;
+  }
+
+  div.quiz-answer {
+    width: 60vw;
+    position: relative;
+    top: 55vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.quiz-answer-title {
+    height: 8vw;
+    width: 60vw;
+    position: absolute;
+    top: 0;
+    text-align: left;
+  }
+  div.quiz-answer-title span {
+    font-size: 3vw;
+    line-height: 8vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.quiz-answer-content {
+    width: 60vw;
+    height: auto;
+    position: absolute;
+    top: 8vw;
+  }
+  div.quiz-answer-content div.answer {
+    height: 6vw;
+    width: 60vw;
+    position: relative;
+    box-sizing: border-box;
+    border: solid 0.1vw black;
+    margin-bottom: 2vw;
+  }
+  div.quiz-answer-content div.answer div.answer-number {
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    left: 1vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+  }
+  div.quiz-answer-content div.answer div.answer-number span {
+    font-size: 2vw;
+    line-height: 5vw;
+    font-family: sans-serif;
+  }
+  div.quiz-answer-content div.answer div.answer-content {
+    height: 5vw;
+    width: 50vw;
+    position: absolute;
+    left: 7vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+  }
+  div.quiz-answer-content div.answer div.answer-content span {
+    font-size: 2vw;
+    line-height: 5vw;
+    font-family: sans-serif;
+  }
+  div.answer-button {
+    height: 4vw;
+    width: 8vw;
+    position: absolute;
+    right: 1vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,206,255,1);
+    border-radius: 2vw;
+    text-align: center;
+  }
+  div.answer-button span {
+    font-size: 2vw;
+    line-height: 4vw;
+    font-family: sans-serif;
+    pointer-events: none;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  div.main {
+    width: 100vw;
+    position: relative;
+  }
+  div.quiz-title {
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    top: 5vw;
+    margin: auto;
+    text-align: center;
+  }
+  div.quiz-title span {
+    font-size: 6vw;
+    line-height: 20vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.quiz-sentence {
+    width: 90vw;
+    height: 50vw;
+    position: absolute;
+    top: 30vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.quiz-sentence-title {
+    height: 10vw;
+    width: 90vw;
+    position: absolute;
+    top: 0;
+    text-align: left;
+  }
+  div.quiz-sentence-title span {
+    font-size: 4vw;
+    line-height: 10vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.quiz-sentence div.quiz-sentence-content {
+    width: 90vw;
+    height: 40vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.quiz-sentence textarea {
+    height: 40vw;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 3vw;
+    line-height: 3vw;
+    font-family: sans-serif;
+  }
+
+  div.quiz-answer {
+    width: 90vw;
+    position: relative;
+    top: 80vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  div.quiz-answer-title {
+    height: 10vw;
+    width: 90vw;
+    position: absolute;
+    top: 0;
+    text-align: left;
+  }
+  div.quiz-answer-title span {
+    font-size: 4vw;
+    line-height: 10vw;
+    font-weight: bold;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  }
+  div.quiz-answer-content {
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    top: 8vw;
+  }
+  div.quiz-answer-content div.answer {
+    height: 10vw;
+    width: 90vw;
+    position: relative;
+    box-sizing: border-box;
+    border: solid 0.1vw black;
+    margin-bottom: 5vw;
+  }
+  div.quiz-answer-content div.answer div.answer-number {
+    height: 8vw;
+    width: 5vw;
+    position: absolute;
+    left: 2vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+  }
+  div.quiz-answer-content div.answer div.answer-number span {
+    font-size: 4vw;
+    line-height: 8vw;
+    font-family: sans-serif;
+  }
+  div.quiz-answer-content div.answer div.answer-content {
+    height: 8vw;
+    width: 60vw;
+    position: absolute;
+    left: 12vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+  }
+  div.quiz-answer-content div.answer div.answer-content span {
+    font-size: 4vw;
+    line-height: 8vw;
+    font-family: sans-serif;
+  }
+  div.answer-button {
+    height: 6vw;
+    width: 12vw;
+    position: absolute;
+    right: 2vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,206,255,1);
+    border-radius: 3vw;
+    text-align: center;
+  }
+  div.answer-button span {
+    font-size: 2.5vw;
+    line-height: 6vw;
+    font-family: sans-serif;
+    pointer-events: none;
+  }
+}

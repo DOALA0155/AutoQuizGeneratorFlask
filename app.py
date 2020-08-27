@@ -5,6 +5,15 @@ from quiz_generator import get_quiz_sentence
 app = flask.Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
+@app.route("/")
+def index():
+    return flask.render_template("index.html")
+
+@app.route('/<word>')
+def show_result(word):
+    title, quiz_sentence, answers = get_quiz_sentence(word)
+    return flask.render_template("result.html", title=title, quiz=quiz_sentence, answers=answers)
+
 @app.route("/generate", methods=["POST"])
 def predict():
     response = {

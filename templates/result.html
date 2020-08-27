@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }} | クイズ自動生成サイト</title>
+  <link rel="stylesheet" href="/static/css/result.css">
+</head>
+<body>
+  <div class="main">
+    <div class="quiz-title">
+      <span>{{ title }}</span>
+    </div>
+    <div class="quiz-sentence-title"></div>
+    <div class="quiz-sentence">
+      <div class="quiz-sentence-title">
+        <span>問題</span>
+      </div>
+      <div class="quiz-sentence-content">
+        <textarea readonly>{{ quiz }}</textarea>
+      </div>
+    </div>
+    <div class="quiz-answer">
+      <div class="quiz-answer-title">
+        <span>答え</span>
+      </div>
+      <div class="quiz-answer-content">
+        {% for answer in answers %}
+        <div class="answer">
+          <div class="answer-number">
+            <span>{{ loop.index }}</span>
+          </div>
+          <div class="answer-content" id="answer{{ loop.index }}">
+            <span>{{ answer }}</span>
+          </div>
+          <div class="answer-button" id="{{ loop.index }}">
+            <span class="button-text">表示</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <script src="/static/script/answer_button.js"></script>
+</body>
+</html>

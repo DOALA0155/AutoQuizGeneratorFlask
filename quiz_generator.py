@@ -26,7 +26,7 @@ def get_quiz_sentence(title):
 
   for word_dictionary in word_speech_list:
     romaji = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    print([word in romaji for word in word_dictionary["english"]])
+
     if ("固有名詞" in word_dictionary["speech"]) or  (True in [word in romaji for word in word_dictionary["english"]]):
       quiz_sentence += " [問題{}] ".format(proper_noun_number)
       answers.append(word_dictionary["word"])
